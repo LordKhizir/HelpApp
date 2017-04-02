@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelpApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Tracking -->
+    <string name="activate_tracking">I want to activate tracking</string>
+    <string name="deactivate_tracking">I want to deactivate tracking</string>
+    <string name="trackme_on_description">Your position is being tracked.\nYou can send help request in case of need.\nYou will be notified when there are nearby people requesting help</string>
+    <string name="trackme_off_description">Your position is not being tracked.\nTo be able to get help and help others in need, you must active it.</string>
+
+</resources>
