@@ -415,6 +415,10 @@ public class MainActivity extends AppCompatActivity
     }
 
     private String formatLocation(Location location) {
-        return "Latitude:" + String.valueOf(mCurrentLocation.getLatitude()) + ", Longitude:" + String.valueOf(mCurrentLocation.getLongitude());
+        if (mCurrentLocation!=null) {
+            return "Latitude:" + String.valueOf(mCurrentLocation.getLatitude()) + ", Longitude:" + String.valueOf(mCurrentLocation.getLongitude());
+        } else {
+            return "Latitude: NOT SET, Longitude: NOT SET";
+        }
     }
 }
